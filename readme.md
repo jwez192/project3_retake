@@ -9,12 +9,18 @@ The WoW Armory is a resource webpage provided by Blizzard Entertainment for thei
 
 # Initial Plan
 In my first layout of the design I am looking to detail how the website will be formatted and how the page will react when interacted with. The first set of frames details the log in screen. The second set shows the primary page of the site. It includes a few sections where it is focused around a currently selected character.
+
 -------------------------------------------------------------------------------------------------------------------
+
 ![Grey Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/greyWire.jpg)
+
 -------------------------------------------------------------------------------------------------------------------
 As development of the design went on I asked myself what does my site do differently from the other sites out there. When I found there was not much separating it I decided to change a section of the site that could be beneficial to a user when it comes to complimenting the game. The character stats section was changed to allow for two characters to be pulled up side by side to compare stats. It is not much but it does add a nice touch if you are some one looking to set some goals or help a friend who is lacking in an area. 
+
 -------------------------------------------------------------------------------------------------------------------
+
 ![Colored Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/coloredWire.png?raw=true)
+
 -------------------------------------------------------------------------------------------------------------------
     
     
