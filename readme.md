@@ -14,6 +14,6 @@ There is a lot more information available but these are some of the things I wan
 -------------------------------------------------------------------------------------------------------------------
 
 # Initial Plan
-![Analysis](/design/Westerwelle_jay_detailedWireframes.png)
+    ![Analysis](/design/Westerwelle_jay_detailedWireframes.png)
 
 
