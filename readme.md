@@ -15,6 +15,6 @@ There is a lot more information available but these are some of the things I wan
 
 # Initial Plan
 
-    ![Analysis, data](https://github.com/jwez192/project3_retake/blob/master/design/Westerwelle_Jay_detailedWireframes.png?raw=true)
+    ![Analysis, data](design/greyWire.png)
 
 
