@@ -9,9 +9,9 @@ The WoW Armory is a resource webpage provided by Blizzard Entertainment for thei
 
 # Initial Plan
 
-    ![Analyis for Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/Analysis.pdf?raw=true)
-    ![Grey Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/greyWire.jpg?raw=true)
-    ![Colored Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/coloredWire.png?raw=true)
+![Analyis for Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/Analysis.pdf?raw=true)
+![Grey Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/greyWire.jpg?raw=true)
+![Colored Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/coloredWire.png?raw=true)
     
     
 
