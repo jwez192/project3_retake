@@ -15,6 +15,6 @@ There is a lot more information available but these are some of the things I wan
 
 # Initial Plan
 
-    ![Analysis, data](/design/Westerwelle_jay_detailedWireframes.png)
+    ![Analysis, data](https://github.com/jwez192/project3_retake/blob/master/design/Westerwelle_Jay_Wireframes%20copy.jpg)
 
 
