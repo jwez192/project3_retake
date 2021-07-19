@@ -15,6 +15,10 @@ There is a lot more information available but these are some of the things I wan
 
 # Initial Plan
 
-    !(https://github.com/jwez192/project3_retake/blob/master/design/greyWire.jpg?raw=true)
+    ![Analyis for Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/Analysis.pdf?raw=true)
+    ![Grey Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/greyWire.jpg?raw=true)
+    ![Colored Wireframe, Picture](https://github.com/jwez192/project3_retake/blob/master/design/coloredWire.png?raw=true)
+    
+    
 
 
