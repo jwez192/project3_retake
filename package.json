@@ -1,7 +1,7 @@
 {
   "name": "06_21_03",
   "version": "1.0.0",
-  "description": "",
+  "description": "------------------------------------------------------------------------------------------------------------------- # Project Portfolio 3.5 Welcome to my web project for my fourth portfolio class. This month I am building a completed front end website.With this project my goal is to build a guild website with inspiration from the WoW Armory.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jwez192/projectThree_retake/issues"
   },
-  "homepage": "https://github.com/jwez192/projectThree_retake#readme"
+  "homepage": "https://github.com/jwez192/projectThree_retake#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^5.0.0"
+  }
 }
