@@ -15,6 +15,7 @@ There is a lot more information available but these are some of the things I wan
 
 # Initial Plan
 
-    ![Analysis, data](https://github.com/jwez192/project3_retake/blob/master/design/greyWire.jpg?raw=true)
+    ![Analysis, data]
+    (https://github.com/jwez192/project3_retake/blob/master/design/greyWire.jpg?raw=true)
 
 
