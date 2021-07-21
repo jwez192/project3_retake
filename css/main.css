@@ -1,3 +1,27 @@
+nav {
+  background-color: red;
+}
 
+nav a {
+  color: white;
+}
+
+#character {
+  height: 500px;
+  outline: 2px solid red;
+  width: 70%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#info {
+  height: 250px;
+  width: 70%;
+  outline: 2px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*# sourceMappingURL=main.css.map */
