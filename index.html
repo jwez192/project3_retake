@@ -10,6 +10,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -33,12 +37,71 @@
             </li>
         </ul>
     </nav>
-    <section id="character">
+    <main class="container">
+       <h1>Character Header</h1>
+       <section id="character" class="row">
 
-    </section>
-    <section id="info">
-
-    </section>
-    <h1>Hello World</h1>
+           <article class="col-2 col-lg-1 itemCol">
+                <div class="items">
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                </div>
+           </article>
+           <article class="col-8 col-lg-10 charCol">
+                <article class="d-flex align-items-center justify-content-between" id="charSelect">
+                    <h2>Character Select</h2>
+                    <div class="portrait"></div>
+                    <div class="portrait"></div>
+                    <div class="portrait"></div>
+                    <div class="portrait"></div>
+                    <div class="portrait"></div>
+                </article>
+            
+           </article>
+           <article class="col-2 col-lg-1 itemCol">
+                <div class="items">
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                    <article class="item"></article>
+                </div>
+           </article>
+       </section>
+       <section class="row" id="infoHeader">
+           <div class="col"><h3>Info Header</h3></div>
+           <div class="col"><h3>Info Header</h3></div>
+           <div class="col"><h3>Info Header</h3></div>
+       </section>
+       <section id="info" class="row justify-content-between">
+           
+            <article class="col-3 infoCol">
+                <table>
+                    <tr>
+                        <th>Level</th>
+                        <th>Name</th>
+                        <th>Rank</th>
+                    </tr>
+                </table>
+            </article>
+            <article class="col-3 infoCol">
+                <img>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi distinctio fugiat corporis aspernatur perferendis unde nam quo! Alias illo tenetur cupiditate ipsum, aliquid expedita voluptate quod labore, rem veniam illum.</p>
+            </article>
+            <article class="col-3 infoCol">
+                <img>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi distinctio fugiat corporis aspernatur perferendis unde nam quo! Alias illo tenetur cupiditate ipsum, aliquid expedita voluptate quod labore, rem veniam illum.</p>
+            </article>
+       </section>
+    </main>
 </body>
 </html>
