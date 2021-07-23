@@ -46,6 +46,12 @@ nav a:hover {
     height: 35px;
   }
 }
+@media (min-width: 992px) {
+  .item {
+    width: 50px;
+    height: 50px;
+  }
+}
 
 .item:hover {
   cursor: pointer;
@@ -108,14 +114,24 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-#info {
-  overflow: auto;
-}
-
 .infoCol {
   border-radius: 5px;
   padding: 5px;
   background-color: lightblue;
+}
+@media (min-width: 300px) {
+  .infoCol {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 576px) {
+  .infoCol {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .infoCol h3 {
@@ -130,7 +146,7 @@ nav a:hover {
 }
 
 tr {
-  outline: 2px solid red;
+  outline: 2px solid black;
   width: 100%;
 }
 
@@ -144,11 +160,12 @@ th:nth-of-type(2) {
 }
 
 th:not(:nth-of-type(3)) {
-  border-right: 1px solid red;
+  border-right: 1px solid black;
 }
 
 #infoHeader {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 body {
