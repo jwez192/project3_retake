@@ -1,0 +1,203 @@
+
+.charCol{
+    // background-color: lightblue;
+    
+    background-image: url('../images/characters/thorn.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    
+    
+}
+.itemCol{
+    padding-top: 10px;
+    
+}
+
+.item{
+    padding: 5px;
+    
+    border-top: 2px solid $primary-light-text;
+    border-bottom: 2px solid $primary-light-text;
+    width: 100%;
+    height: 50px;
+    // border: 2px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    // background-color: lightblue;
+    margin-bottom: 10px;
+    @media (min-width:300px) {
+        right: 0;
+        width: 100%;
+        height: 25px;
+        
+    }
+    @media (min-width: 576px){
+        width: 100%;
+        height: 35px;
+        
+    }
+    @media (min-width:992px) {
+        width: 100%;
+        height: 80px;
+    }
+}
+.item p{
+    // background-color: red;
+    
+    text-align: left;
+    
+    @media (min-width:300px) {
+        visibility: hidden;
+    }
+    @media (min-width: 576px) {
+        visibility: hidden;
+    }
+    @media (min-width:992px) {
+        visibility: visible;
+        font-size: .8rem;
+        float: left;
+        margin-right: -20px;
+        margin-top: 10px;
+    }
+
+    
+}
+.itemImg{
+    float: left;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width:  30%;
+    // // border-radius: 10px;
+    @media (min-width:300px) {
+        height: 100%;
+        width:  50%;
+        
+    }
+    @media (min-width:576px) {
+        height: 100%;
+        width:  50%;
+        
+    }
+    @media (min-width:992px) {
+        
+    }
+    // @media (min-width: 576px){
+    //     height: 100%;
+    //     width:  30%;
+        
+    // }
+    // @media (min-width:992px) {
+        
+    // }
+}
+.item:hover{
+    cursor: pointer;
+    background-color: white;
+}
+#character{
+    margin-bottom: 50px;
+    // background-color: lightgray;
+}
+h1{
+    @media (min-width:300px) {
+        margin-top: 250px;
+    }
+}
+.portrait{
+    width: 50px;
+    height: 50px;
+    border: 2px solid $primary-light-text;
+    border-radius: 50%;
+    @media (min-width:300px) {
+        width: 25px;
+        height: 25px;
+    }
+    @media (min-width:576px) {
+        width: 32px;
+        height: 32px;
+        
+    }
+    @media (min-width:992px) {
+        width: 50px;
+        height: 50px;
+    }
+}
+.portrait:hover{
+    cursor: pointer;
+    background-color: white;
+}
+#charSelect{
+    border-top: 2px solid $primary-light-text;
+    border-bottom: 2px solid $primary-light-text;
+    border-radius: 7px;
+
+    height: 70px;
+    width: 80%;
+
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right:0;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+    // background-color: $primary-light-text ;
+}
+#backgroundCharSelect{
+    background-color: $primary-dark-background;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right:0;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+    @media (min-width:576px) {
+        height:32%
+    }
+    @media (min-width:992px) {
+        height: 25%;
+    }
+    @media (min-width:1200px) {
+        height: 25%;
+    }
+}
+#charSelect h2{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    
+}
+#helm{
+    background-image: url('../images/items/helmet.gif');
+    
+}
+#chest{
+    background-image: url('../images/items/chest.gif');
+}
+.portrait:nth-of-type(3){
+    background-image: url('../images/characters/thorn.jpg');
+    background-position: center;
+    background-size: 300%;
+    background-repeat: no-repeat;
+}
+
+

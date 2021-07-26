@@ -1,0 +1,26 @@
+#stats{
+    
+    outline: 2px solid green;
+}
+#stats article{
+    // outline: 2px solid green;
+    margin-left: auto;
+    margin-right: auto;
+}
+#stats img{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 2px;
+}
+#stats p{
+    font-size: .5em;
+}
+#innerStatsRow{
+    outline: 2px solid red;
+}
+#innerStatsRow article{
+    outline: 2px solid black;
+    padding: 0;
+    background-color: lightblue;
+}
