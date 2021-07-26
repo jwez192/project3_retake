@@ -384,7 +384,6 @@ th:not(:nth-of-type(3)) {
 }
 
 body {
-  height: 3000px;
   background-color: #020402;
 }
 
@@ -402,6 +401,18 @@ h1, h2 {
 
 .container {
   margin-top: 100px;
+}
+
+footer {
+  padding: 10px;
+  margin-top: 100px;
+  height: 50px;
+  width: 100%;
+  background-color: #E4E3D3;
+}
+
+footer p {
+  color: #020402;
 }
 
 #stats article {
