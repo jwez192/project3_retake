@@ -72,7 +72,7 @@ nav a:hover {
     visibility: visible;
     font-size: 0.8rem;
     float: left;
-    margin-right: -20px;
+    margin-right: -30px;
     margin-top: 10px;
   }
 }
@@ -97,9 +97,9 @@ nav a:hover {
     width: 50%;
   }
 }
-.item:hover {
+.item:hover p, .item:hover {
+  color: white;
   cursor: pointer;
-  background-color: white;
 }
 
 #character {
@@ -140,6 +140,7 @@ nav a:hover {
 .portrait:hover {
   cursor: pointer;
   background-color: white;
+  border: 2px solid red;
 }
 
 #charSelect {
@@ -207,11 +208,94 @@ nav a:hover {
   background-image: url("../images/items/chest.gif");
 }
 
+#shoulder {
+  background-image: url("../images/items/shoulders.gif");
+}
+
+#pants {
+  background-image: url("../images/items/pants.gif");
+}
+
+#belt {
+  background-image: url("../images/items/belt.gif");
+}
+
+#ringOne {
+  background-image: url("../images/items/ringOne.gif");
+}
+
+#ringTwo {
+  background-image: url("../images/items/ringTwo.gif");
+}
+
+#trinketOne {
+  background-image: url("../images/items/trinketOne.gif");
+}
+
+#trinketTwo {
+  background-image: url("../images/items/trinketTwo.gif");
+}
+
+#shirt {
+  background-image: url("../images/items/shirt.gif");
+}
+
+#wrists {
+  background-image: url("../images/items/wrists.gif");
+}
+
+#neck {
+  background-image: url("../images/items/neck.gif");
+}
+
+#weapon {
+  background-image: url("../images/items/weapon.gif");
+}
+
+#tabard {
+  background-image: url("../images/items/empty.png");
+}
+
+#weaponTwo {
+  background-image: url("../images/items/empty.png");
+}
+
+#cloak {
+  background-image: url("../images/items/cloak.gif");
+}
+
 .portrait:nth-of-type(3) {
   background-image: url("../images/characters/thorn.jpg");
   background-position: center;
   background-size: 300%;
   background-repeat: no-repeat;
+}
+
+.portrait:nth-of-type(2) {
+  background-image: url("../images/characters/randomOne.jpg");
+  background-position: center;
+  background-size: 300%;
+  background-repeat: no-repeat;
+}
+
+.portrait:nth-of-type(4) {
+  background-image: url("../images/characters/randomTwo.jpg");
+  background-position: center;
+  background-size: 300%;
+  background-repeat: no-repeat;
+}
+
+#rightItems .itemImg {
+  float: right;
+}
+
+#rightItems p {
+  text-align: right;
+  margin-left: -5px;
+}
+
+.itemCol p {
+  color: lightsalmon;
 }
 
 #info {
