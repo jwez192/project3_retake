@@ -1,0 +1,138 @@
+nav {
+  background-color: red;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.itemCol, .charCol {
+  outline: 2px solid black;
+  text-align: center;
+}
+
+.charCol {
+  background-color: lightblue;
+}
+
+.itemCol {
+  padding-top: 10px;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+
+#character {
+  margin-bottom: 50px;
+  background-color: lightgray;
+}
+
+.portrait {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+#charSelect {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 7px;
+  height: 70px;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+#charSelect h2 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+#info {
+  outline: 2px solid red;
+  overflow: auto;
+}
+
+.infoCol {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: lightblue;
+}
+
+.infoCol h3 {
+  text-align: center;
+}
+
+.infoCol img {
+  background-color: grey;
+  height: 100px;
+  width: 100%;
+}
+
+tr {
+  outline: 2px solid red;
+  width: 100%;
+}
+
+th {
+  padding: 2px;
+  text-align: center;
+}
+
+th:nth-of-type(2) {
+  width: 10rem;
+}
+
+th:not(:nth-of-type(3)) {
+  border-right: 1px solid red;
+}
+
+#infoHeader {
+  text-align: center;
+}
+
+body {
+  height: 3000px;
+}
+
+h1, h2, h3 {
+  font-family: "Tangerine", cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=main.css.map */
