@@ -1,9 +1,9 @@
 nav {
-  background-color: red;
+  background-color: #E4E3D3;
 }
 
 nav a {
-  color: white;
+  color: #020402;
 }
 
 nav a:hover {
@@ -11,13 +11,12 @@ nav a:hover {
   color: black;
 }
 
-.itemCol, .charCol {
-  text-align: center;
-}
-
 .charCol {
-  background-color: lightblue;
-  border-radius: 10px;
+  background-image: url("../../images/characters/thorn.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
 
 .itemCol {
@@ -25,34 +24,79 @@ nav a:hover {
 }
 
 .item {
-  width: 50px;
+  padding: 5px;
+  border-top: 2px solid #E4E3D3;
+  border-bottom: 2px solid #E4E3D3;
+  width: 100%;
   height: 50px;
-  border: 2px solid black;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  background-color: lightblue;
   margin-bottom: 10px;
 }
 @media (min-width: 300px) {
   .item {
-    width: 25px;
+    right: 0;
+    width: 100%;
     height: 25px;
   }
 }
 @media (min-width: 576px) {
   .item {
-    width: 35px;
+    width: 100%;
     height: 35px;
   }
 }
 @media (min-width: 992px) {
   .item {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 80px;
   }
 }
 
+.item p {
+  text-align: left;
+}
+@media (min-width: 300px) {
+  .item p {
+    visibility: hidden;
+  }
+}
+@media (min-width: 576px) {
+  .item p {
+    visibility: hidden;
+  }
+}
+@media (min-width: 992px) {
+  .item p {
+    visibility: visible;
+    font-size: 0.8rem;
+    float: left;
+    margin-right: -20px;
+    margin-top: 10px;
+  }
+}
+
+.itemImg {
+  float: left;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 30%;
+}
+@media (min-width: 300px) {
+  .itemImg {
+    height: 100%;
+    width: 50%;
+  }
+}
+@media (min-width: 576px) {
+  .itemImg {
+    height: 100%;
+    width: 50%;
+  }
+}
 .item:hover {
   cursor: pointer;
   background-color: white;
@@ -71,13 +115,25 @@ nav a:hover {
 .portrait {
   width: 50px;
   height: 50px;
-  border: 2px solid black;
+  border: 2px solid #E4E3D3;
   border-radius: 50%;
 }
 @media (min-width: 300px) {
   .portrait {
     width: 25px;
     height: 25px;
+  }
+}
+@media (min-width: 576px) {
+  .portrait {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (min-width: 992px) {
+  .portrait {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -87,8 +143,8 @@ nav a:hover {
 }
 
 #charSelect {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #E4E3D3;
+  border-bottom: 2px solid #E4E3D3;
   border-radius: 7px;
   height: 70px;
   width: 80%;
@@ -100,6 +156,35 @@ nav a:hover {
   margin-left: auto;
   margin-bottom: 5px;
   padding: 5px;
+}
+
+#backgroundCharSelect {
+  background-color: #020402;
+  width: 100%;
+  height: 25%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+@media (min-width: 576px) {
+  #backgroundCharSelect {
+    height: 32%;
+  }
+}
+@media (min-width: 992px) {
+  #backgroundCharSelect {
+    height: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  #backgroundCharSelect {
+    height: 25%;
+  }
 }
 
 #charSelect h2 {
@@ -114,6 +199,25 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
+#helm {
+  background-image: url(../../images/items/helmet.gif);
+}
+
+#chest {
+  background-image: url(../../images/items/chest.gif);
+}
+
+.portrait:nth-of-type(3) {
+  background-image: url("../../images/characters/thorn.jpg");
+  background-position: center;
+  background-size: 300%;
+  background-repeat: no-repeat;
+}
+
+#info {
+  outline: 2px solid black;
+}
+
 .infoCol {
   border-radius: 5px;
   padding: 5px;
@@ -121,16 +225,24 @@ nav a:hover {
 }
 @media (min-width: 300px) {
   .infoCol {
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media (min-width: 576px) {
   .infoCol {
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media (min-width: 992px) {
+  .infoCol {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -170,18 +282,53 @@ th:not(:nth-of-type(3)) {
 
 body {
   height: 3000px;
+  background-color: #020402;
 }
 
 h1, h2, h3 {
   font-family: "Tangerine", cursive;
 }
 
-h1 {
+h1, h2, h3, p {
+  color: #E4E3D3;
+}
+
+h1, h2 {
   text-align: center;
 }
 
 .container {
   margin-top: 100px;
+}
+
+#stats {
+  outline: 2px solid green;
+}
+
+#stats article {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stats img {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin: 2px;
+}
+
+#stats p {
+  font-size: 0.5em;
+}
+
+#innerStatsRow {
+  outline: 2px solid red;
+}
+
+#innerStatsRow article {
+  outline: 2px solid black;
+  padding: 0;
+  background-color: lightblue;
 }
 
 /*# sourceMappingURL=main.css.map */
