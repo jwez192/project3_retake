@@ -435,7 +435,41 @@ h1, h2 {
   height: 50px;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #E4E3D3;
+  background-color: darkred;
+  border-radius: 10px;
+}
+
+.int {
+  background-image: url("../images/icons/int.png");
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: lightskyblue;
+  border-radius: 10px;
+}
+
+.strength {
+  background-image: url("../images/icons/strength.png");
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: darkorange;
+  border-radius: 10px;
+}
+
+.stamina {
+  background-image: url("../images/icons/stamina.png");
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: deeppink;
+  border-radius: 10px;
 }
 
 #statsHeader {
