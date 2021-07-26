@@ -472,6 +472,50 @@ h1, h2 {
   border-radius: 10px;
 }
 
+.vers {
+  background-image: url("../images/icons/vers.png");
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: dodgerblue;
+  border-radius: 10px;
+}
+
+.mastery {
+  background-image: url("../images/icons/mastery.png");
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gold;
+  border-radius: 10px;
+}
+
+.crit {
+  background-image: url("../images/icons/crit.png");
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.haste {
+  background-image: url("../images/icons/haste.png");
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: green;
+  border-radius: 10px;
+}
+
 #statsHeader {
   margin-top: 100px;
 }
