@@ -12,7 +12,7 @@ nav a:hover {
 }
 
 .charCol {
-  background-image: url("../../images/characters/thorn.jpg");
+  background-image: url("../images/characters/thorn.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,15 +200,15 @@ nav a:hover {
 }
 
 #helm {
-  background-image: url(../../images/items/helmet.gif);
+  background-image: url("../images/items/helmet.gif");
 }
 
 #chest {
-  background-image: url(../../images/items/chest.gif);
+  background-image: url("../images/items/chest.gif");
 }
 
 .portrait:nth-of-type(3) {
-  background-image: url("../../images/characters/thorn.jpg");
+  background-image: url("../images/characters/thorn.jpg");
   background-position: center;
   background-size: 300%;
   background-repeat: no-repeat;
