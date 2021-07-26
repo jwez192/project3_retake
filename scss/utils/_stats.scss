@@ -1,6 +1,6 @@
 #stats{
     
-    outline: 2px solid green;
+    // outline: 2px solid green;
 }
 #stats article{
     // outline: 2px solid green;
@@ -13,14 +13,35 @@
     float: left;
     margin: 2px;
 }
+#statsOne, #statsTwo{
+    border: 2px solid $primary-light-text;
+}
 #stats p{
     font-size: .5em;
 }
 #innerStatsRow{
-    outline: 2px solid red;
+    // outline: 5px solid red;
 }
 #innerStatsRow article{
-    outline: 2px solid black;
+    // outline: 2px solid $primary-light-text;
     padding: 0;
-    background-color: lightblue;
+    // background-color: $primary-dark-background;
+}
+.health{
+    background-image: url('../images/icons/health.png');
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $primary-light-text;
+    // @media (min-width:300px) {
+    //     width: 50px;
+    //     height: 50px;
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    // }
+}
+#statsHeader{
+    margin-top: 100px;
 }

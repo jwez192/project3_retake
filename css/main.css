@@ -404,10 +404,6 @@ h1, h2 {
   margin-top: 100px;
 }
 
-#stats {
-  outline: 2px solid green;
-}
-
 #stats article {
   margin-left: auto;
   margin-right: auto;
@@ -420,18 +416,30 @@ h1, h2 {
   margin: 2px;
 }
 
+#statsOne, #statsTwo {
+  border: 2px solid #E4E3D3;
+}
+
 #stats p {
   font-size: 0.5em;
 }
 
-#innerStatsRow {
-  outline: 2px solid red;
+#innerStatsRow article {
+  padding: 0;
 }
 
-#innerStatsRow article {
-  outline: 2px solid black;
-  padding: 0;
-  background-color: lightblue;
+.health {
+  background-image: url("../images/icons/health.png");
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #E4E3D3;
+}
+
+#statsHeader {
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
