@@ -156,7 +156,6 @@ nav a:hover {
 }
 
 #charCol {
-  background-image: url("../images/characters/thorn/thorn.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,10 +164,12 @@ nav a:hover {
 
 .itemCol {
   padding-top: 10px;
+  outline: 1px solid orange;
 }
 
 .item {
   padding: 5px;
+  outline: 1px solid blue;
   border-top: 2px solid #E4E3D3;
   border-bottom: 2px solid #E4E3D3;
   width: 100%;
@@ -198,9 +199,6 @@ nav a:hover {
   }
 }
 
-.item p {
-  text-align: left;
-}
 @media (min-width: 300px) {
   .item p {
     visibility: hidden;
@@ -222,6 +220,7 @@ nav a:hover {
 }
 
 .itemImg {
+  outline: 1px solid green;
   float: left;
   background-size: 80%;
   background-repeat: no-repeat;
@@ -358,18 +357,12 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
-.portrait:nth-of-type(4) {
-  background-image: url("../images/characters/randomTwo.jpg");
-  background-position: center;
-  background-size: 300%;
-  background-repeat: no-repeat;
-}
-
 #rightItems .itemImg {
   float: right;
 }
 
 #rightItems p {
+  outline: 1px solid red;
   text-align: right;
   margin-left: -5px;
 }
@@ -389,6 +382,7 @@ nav a:hover {
 }
 
 #leftItems p {
+  outline: 1px solid red;
   float: left;
   margin-top: -50px;
 }

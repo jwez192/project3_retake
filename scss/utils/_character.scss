@@ -2,7 +2,7 @@
 #charCol{
     // background-color: lightblue;
     
-    background-image: url('../images/characters/thorn/thorn.jpg');
+    // background-image: url('../images/characters/thorn/thorn.jpg');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,12 +12,12 @@
 }
 .itemCol{
     padding-top: 10px;
-    
+    outline: 1px solid orange;
 }
 
 .item{
     padding: 5px;
-    
+    outline: 1px solid blue;
     border-top: 2px solid $primary-light-text;
     border-bottom: 2px solid $primary-light-text;
     width: 100%;
@@ -47,7 +47,7 @@
 .item p{
     // background-color: red;
     
-    text-align: left;
+    // text-align: left;
     
     @media (min-width:300px) {
         visibility: hidden;
@@ -66,6 +66,7 @@
     
 }
 .itemImg{
+    outline: 1px solid green;
     float: left;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -193,16 +194,12 @@ h1{
     background-size: 300%;
     background-repeat: no-repeat;
 }
-.portrait:nth-of-type(4){
-    background-image: url('../images/characters/randomTwo.jpg');
-    background-position: center;
-    background-size: 300%;
-    background-repeat: no-repeat;
-}
+
 #rightItems .itemImg{
     float: right;
 }
 #rightItems p{
+    outline: 1px solid red;
     text-align: right;
     margin-left: -5px;
     @media (min-width:992px) {
@@ -216,6 +213,7 @@ h1{
     color:lightsalmon;
 }
 #leftItems p{
+    outline: 1px solid red;
     float: left;
     margin-top: -50px;
     @media (min-width:992px) {
