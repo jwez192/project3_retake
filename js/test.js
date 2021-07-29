@@ -1,16 +1,16 @@
-{
-    "characters":[
+
+    let characters = [
       {
         "id":0,
         "name":"Thorn",
         "equipment":
         {
           "head":"thorn_helm",
-          "shoulder":"thorn_shoulder",
+          "shoulders":"thorn_shoulders",
           "chest":"thorn_chest",
           "pants":"thorn_pants",
           "boots":"thorn_boots",
-          "back":"thorn_back",
+          "cloak":"thorn_cloak",
           "belt":"thorn_belt",
           "gloves":"thorn_gloves",
           "wrists":"thorn_wrists",
@@ -180,15 +180,15 @@
       },
       {
         "id":1,
-        "name":"icemechanic",
+        "name":"Icemechanic",
         "equipment":
         {
           "head":"icemechanic_helm",
-          "shoulder":"icemechanic_shoulder",
+          "shoulders":"icemechanic_shoulders",
           "chest":"icemechanic_chest",
           "pants":"icemechanic_pants",
           "boots":"icemechanic_boots",
-          "back":"icemechanic_back",
+          "cloak":"icemechanic_cloak",
           "belt":"icemechanic_belt",
           "gloves":"icemechanic_gloves",
           "wrists":"icemechanic_wrists",
@@ -202,4 +202,4 @@
         }
       }
     ]
-  }
+  

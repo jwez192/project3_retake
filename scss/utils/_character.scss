@@ -1,8 +1,8 @@
 
-.charCol{
+#charCol{
     // background-color: lightblue;
     
-    background-image: url('../images/characters/thorn.jpg');
+    background-image: url('../images/characters/thorn/thorn.jpg');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -179,64 +179,16 @@ h1{
     margin-bottom: 10px;
     
 }
-#helm{
-    background-image: url('../images/items/helmet.gif');
-    
-}
-#chest{
-    background-image: url('../images/items/chest.gif');
-}
-#shoulder{
-    background-image: url('../images/items/shoulders.gif');
-}
-#pants{
-    background-image: url('../images/items/pants.gif');
-}
-#belt{
-    background-image: url('../images/items/belt.gif');
-}
-#ringOne{
-    background-image: url('../images/items/ringOne.gif');
-}
-#ringTwo{
-    background-image: url('../images/items/ringTwo.gif');
-}
-#trinketOne{
-    background-image: url('../images/items/trinketOne.gif');
-}
-#trinketTwo{
-    background-image: url('../images/items/trinketTwo.gif');
-}
-#shirt{
-    background-image: url('../images/items/shirt.gif');
-}
-#wrists{
-    background-image: url('../images/items/wrists.gif');
-}
-#neck{
-    background-image: url('../images/items/neck.gif');
-}
-#weapon{
-    background-image: url('../images/items/weapon.gif');
-}
-#tabard{
-    background-image: url('../images/items/empty.png');
-}
-#weaponTwo{
-    background-image: url('../images/items/empty.png');
-}
-#cloak{
-    background-image: url('../images/items/cloak.gif');
-}
+
 
 .portrait:nth-of-type(3){
-    background-image: url('../images/characters/thorn.jpg');
+    background-image: url('../images/characters/thorn/thorn.jpg');
     background-position: center;
     background-size: 300%;
     background-repeat: no-repeat;
 }
 .portrait:nth-of-type(2){
-    background-image: url('../images/characters/randomOne.jpg');
+    background-image: url('../images/characters/icemechanic/Icemechanic.jpg');
     background-position: center;
     background-size: 300%;
     background-repeat: no-repeat;
@@ -253,9 +205,24 @@ h1{
 #rightItems p{
     text-align: right;
     margin-left: -5px;
+    @media (min-width:992px) {
+        margin-left: -25px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -10px;
+    }
 }
 .itemCol p{
     color:lightsalmon;
 }
-
+#leftItems p{
+    float: left;
+    margin-top: -50px;
+    @media (min-width:992px) {
+        margin-left: 55px;
+    }
+    @media (min-width:1200px) {
+        margin-left: 70px;
+    }
+}
 

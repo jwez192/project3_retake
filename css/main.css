@@ -1,3 +1,147 @@
+#icemechanic_helm {
+  background-image: url("../images/characters/icemechanic/items/helm.jpg");
+}
+
+#icemechanic_chest {
+  background-image: url("../images/characters/icemechanic/items/chest.jpg");
+}
+
+#icemechanic_shoulders {
+  background-image: url("../images/characters/icemechanic/items/shoulders.jpg");
+}
+
+#icemechanic_pants {
+  background-image: url("../images/characters/icemechanic/items/pants.jpg");
+}
+
+#icemechanic_belt {
+  background-image: url("../images/characters/icemechanic/items/belt.jpg");
+}
+
+#icemechanic_ring_one {
+  background-image: url("../images/characters/icemechanic/items/ringOne.jpg");
+}
+
+#icemechanic_ring_two {
+  background-image: url("../images/characters/icemechanic/items/ringTwo.jpg");
+}
+
+#icemechanic_trinket_one {
+  background-image: url("../images/characters/icemechanic/items/trinketOne.jpg");
+}
+
+#icemechanic_trinket_two {
+  background-image: url("../images/characters/icemechanic/items/trinketTwo.jpg");
+}
+
+#icemechanic_shirt {
+  background-image: url("../images/characters/icemechanic/items/shirt.jpg");
+}
+
+#icemechanic_wrists {
+  background-image: url("../images/characters/icemechanic/items/wrists.jpg");
+}
+
+#icemechanic_neck {
+  background-image: url("../images/characters/icemechanic/items/neck.jpg");
+}
+
+#icemechanic_weaponOne {
+  background-image: url("../images/characters/icemechanic/items/weapon.jpg");
+}
+
+#icemechanic_tabard {
+  background-image: url("../images/characters/icemechanic/items/tabard.jpg");
+}
+
+#icemechanic_weaponTwo {
+  background-image: url("../images/characters/icemechanic/items/empty.png");
+}
+
+#icemechanic_cloak {
+  background-image: url("../images/characters/icemechanic/items/cloak.jpg");
+}
+
+#icemechanic_gloves {
+  background-image: url("../images/characters/icemechanic/items/gloves.jpg");
+}
+
+#icemechanic_boots {
+  background-image: url("../images/characters/icemechanic/items/boots.jpg");
+}
+
+#thorn_helm {
+  background-image: url("../images/characters/thorn/items/helmet.gif");
+}
+
+#thorn_chest {
+  background-image: url("../images/characters/thorn/items/chest.gif");
+}
+
+#thorn_shoulders {
+  background-image: url("../images/characters/thorn/items/shoulders.gif");
+}
+
+#thorn_pants {
+  background-image: url("../images/characters/thorn/items/pants.gif");
+}
+
+#thorn_belt {
+  background-image: url("../images/characters/thorn/items/belt.gif");
+}
+
+#thorn_ring_one {
+  background-image: url("../images/characters/thorn/items/ringOne.gif");
+}
+
+#thorn_ring_two {
+  background-image: url("../images/characters/thorn/items/ringTwo.gif");
+}
+
+#thorn_trinket_one {
+  background-image: url("../images/characters/thorn/items/trinketOne.gif");
+}
+
+#thorn_trinket_two {
+  background-image: url("../images/characters/thorn/items/trinketTwo.gif");
+}
+
+#thorn_shirt {
+  background-image: url("../images/characters/thorn/items/shirt.gif");
+}
+
+#thorn_wrists {
+  background-image: url("../images/characters/thorn/items/wrists.gif");
+}
+
+#thorn_neck {
+  background-image: url("../images/characters/thorn/items/neck.gif");
+}
+
+#thorn_weaponOne {
+  background-image: url("../images/characters/thorn/items/weapon.gif");
+}
+
+#thorn_tabard {
+  background-image: url("../images/characters/thorn/items/empty.png");
+}
+
+#thorn_weaponTwo {
+  background-image: url("../images/characters/thorn/items/empty.png");
+}
+
+#thorn_cloak {
+  background-image: url("../images/characters/thorn/items/cloak.gif");
+}
+
+#thorn_gloves {
+  background-image: url("../images/characters/thorn/items/gloves.gif");
+}
+
+#thorn_boots {
+  background-image: url("../images/characters/thorn/items/boots.gif");
+}
+
 nav {
   background-color: #E4E3D3;
 }
@@ -11,8 +155,8 @@ nav a:hover {
   color: black;
 }
 
-.charCol {
-  background-image: url("../images/characters/thorn.jpg");
+#charCol {
+  background-image: url("../images/characters/thorn/thorn.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,79 +344,15 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-#helm {
-  background-image: url("../images/items/helmet.gif");
-}
-
-#chest {
-  background-image: url("../images/items/chest.gif");
-}
-
-#shoulder {
-  background-image: url("../images/items/shoulders.gif");
-}
-
-#pants {
-  background-image: url("../images/items/pants.gif");
-}
-
-#belt {
-  background-image: url("../images/items/belt.gif");
-}
-
-#ringOne {
-  background-image: url("../images/items/ringOne.gif");
-}
-
-#ringTwo {
-  background-image: url("../images/items/ringTwo.gif");
-}
-
-#trinketOne {
-  background-image: url("../images/items/trinketOne.gif");
-}
-
-#trinketTwo {
-  background-image: url("../images/items/trinketTwo.gif");
-}
-
-#shirt {
-  background-image: url("../images/items/shirt.gif");
-}
-
-#wrists {
-  background-image: url("../images/items/wrists.gif");
-}
-
-#neck {
-  background-image: url("../images/items/neck.gif");
-}
-
-#weapon {
-  background-image: url("../images/items/weapon.gif");
-}
-
-#tabard {
-  background-image: url("../images/items/empty.png");
-}
-
-#weaponTwo {
-  background-image: url("../images/items/empty.png");
-}
-
-#cloak {
-  background-image: url("../images/items/cloak.gif");
-}
-
 .portrait:nth-of-type(3) {
-  background-image: url("../images/characters/thorn.jpg");
+  background-image: url("../images/characters/thorn/thorn.jpg");
   background-position: center;
   background-size: 300%;
   background-repeat: no-repeat;
 }
 
 .portrait:nth-of-type(2) {
-  background-image: url("../images/characters/randomOne.jpg");
+  background-image: url("../images/characters/icemechanic/Icemechanic.jpg");
   background-position: center;
   background-size: 300%;
   background-repeat: no-repeat;
@@ -293,9 +373,34 @@ nav a:hover {
   text-align: right;
   margin-left: -5px;
 }
+@media (min-width: 992px) {
+  #rightItems p {
+    margin-left: -25px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems p {
+    margin-left: -10px;
+  }
+}
 
 .itemCol p {
   color: lightsalmon;
+}
+
+#leftItems p {
+  float: left;
+  margin-top: -50px;
+}
+@media (min-width: 992px) {
+  #leftItems p {
+    margin-left: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  #leftItems p {
+    margin-left: 70px;
+  }
 }
 
 #info h1, #info h2, #info h3, #info p {
