@@ -14,14 +14,14 @@
                     break;
                 case "charTwo":
                     console.log("2");
-                    document.getElementById('charCol').style.backgroundImage = `url("../images/characters/icemechanic/Icemechanic.jpg")`;
+                    document.getElementById('charCol').style.backgroundImage = "url('../images/characters/icemechanic/Icemechanic.jpg')";
                     let thorn = new CharacterDisplay();
                     thorn.changeLayout(0);
                     
                     break;
                 case "charThree":
                     console.log("3");
-                    document.getElementById('charCol').style.backgroundImage = `url("../images/characters/thorn/thorn.jpg")`;
+                    document.getElementById('charCol').style.backgroundImage = "url('../images/characters/thorn/thorn.jpg')";
                     let iceMech = new CharacterDisplay();
                     iceMech.changeLayout(1);
                     
