@@ -13,13 +13,13 @@
 }
 .itemCol{
     padding-top: 10px;
-    outline: 1px solid orange;
+    // outline: 1px solid orange;
     z-index: 1;
 }
 
 .item{
     padding: 5px;
-    outline: 1px solid blue;
+    // outline: 1px solid blue;
     border-top: 2px solid $primary-light-text;
     border-bottom: 2px solid $primary-light-text;
     width: 100%;
@@ -68,7 +68,7 @@
     
 }
 .itemImg{
-    outline: 1px solid green;
+    // outline: 1px solid green;
     float: left;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ h1{
     // bottom:0;
     // left: 0;
     // right:0;
-outline: 1px solid red;
+// outline: 1px solid red;
     margin-right: auto;
     margin-left: auto;
     // margin-bottom: 5px;
@@ -155,9 +155,10 @@ outline: 1px solid red;
     // bottom:0;
     // left: 0;
     // right:0;
-outline: 1px solid red;
+// outline: 1px solid red;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 80px;
     // margin-bottom: 5px;
     // padding: 5px;
     @media (min-width:576px) {
@@ -203,7 +204,7 @@ outline: 1px solid red;
 }
 #rightItems p{
     
-    outline: 1px solid red;
+    // outline: 1px solid red;
     text-align: right;
     margin-left: -5px;
     @media (min-width:992px) {
@@ -217,7 +218,7 @@ outline: 1px solid red;
     color:lightsalmon;
 }
 #leftItems p{
-    outline: 1px solid red;
+    // outline: 1px solid red;
     float: left;
     margin-top: -50px;
     @media (min-width:992px) {
