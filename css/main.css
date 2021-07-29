@@ -160,11 +160,13 @@ nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 50%;
+  z-index: 0;
 }
 
 .itemCol {
   padding-top: 10px;
   outline: 1px solid orange;
+  z-index: 1;
 }
 
 .item {
@@ -368,12 +370,12 @@ nav a:hover {
 }
 @media (min-width: 992px) {
   #rightItems p {
-    margin-left: -25px;
+    margin-left: -100px;
   }
 }
 @media (min-width: 1200px) {
   #rightItems p {
-    margin-left: -10px;
+    margin-left: -50px;
   }
 }
 
@@ -388,12 +390,12 @@ nav a:hover {
 }
 @media (min-width: 992px) {
   #leftItems p {
-    margin-left: 55px;
+    margin-left: 63px;
   }
 }
 @media (min-width: 1200px) {
   #leftItems p {
-    margin-left: 70px;
+    margin-left: 78px;
   }
 }
 
