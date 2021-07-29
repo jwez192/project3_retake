@@ -14,16 +14,16 @@
                     break;
                 case "charTwo":
                     console.log("2");
-                    document.getElementById('charCol').style.backgroundImage = "url('../images/characters/icemechanic/Icemechanic.jpg')";
-                    let thorn = new CharacterDisplay();
-                    thorn.changeLayout(0);
+                    // document.getElementById('charCol').style.backgroundImage = "url('../images/characters/icemechanic/Icemechanic.jpg')";
+                    let iceMech = new CharacterDisplay();
+                    iceMech.changeLayout(1);
                     
                     break;
                 case "charThree":
                     console.log("3");
-                    document.getElementById('charCol').style.backgroundImage = "url('../images/characters/thorn/thorn.jpg')";
-                    let iceMech = new CharacterDisplay();
-                    iceMech.changeLayout(1);
+                    // document.getElementById('charCol').style.backgroundImage = "url('../images/characters/thorn/thorn.jpg')";
+                    let thorn = new CharacterDisplay();
+                    thorn.changeLayout(0);
                     
                     break;
                 case "charFour":
@@ -47,12 +47,24 @@ class CharacterDisplay{
         
     }
     changeLayout(index){
+        // grab left  item column
         let injectLocationLeft = document.querySelector('#leftItems');
         let injectItemLeft = '';
 
+        // grab right item column
         let injectLocationRight = document.querySelector('#rightItems');
         let injectItemRight = '';
 
+        // Grab Character image column
+        let injectLocationCharacter = document.querySelector('#charCol');
+        let injectCharacterImage = '';
+
+        injectCharacterImage +=
+         `<div id="${characters[index].background}"></div>`;
+
+        injectLocationCharacter.innerHTML = injectCharacterImage;
+
+        // change left item column html
         injectItemLeft = '';
         injectItemLeft += `<article class = "item">
         <div id = "${characters[index].equipment.head}" class="itemImg"></div>
@@ -88,6 +100,7 @@ class CharacterDisplay{
         </article>`;
         injectLocationLeft.innerHTML = injectItemLeft;
 
+        // change right item column html
         injectItemRight += `<article class = "item">
         <div id = "${characters[index].equipment.gloves}" class="itemImg"></div>
         <p class = "descriptionText">${characters[index].equipment.gloves}</p>

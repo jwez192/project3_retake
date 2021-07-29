@@ -70,6 +70,17 @@
   background-image: url("../images/characters/icemechanic/items/boots.jpg");
 }
 
+#icemechanic_background {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/characters/icemechanic/Icemechanic.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 0;
+}
+
 #thorn_helm {
   background-image: url("../images/characters/thorn/items/helmet.gif");
 }
@@ -142,6 +153,17 @@
   background-image: url("../images/characters/thorn/items/boots.gif");
 }
 
+#thorn_background {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/characters/thorn/thorn.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 0;
+}
+
 nav {
   background-color: #E4E3D3;
 }
@@ -153,14 +175,6 @@ nav a {
 nav a:hover {
   background-color: white;
   color: black;
-}
-
-#charCol {
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  z-index: 0;
 }
 
 .itemCol {
@@ -294,28 +308,18 @@ nav a:hover {
   border-radius: 7px;
   height: 70px;
   width: 80%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  outline: 1px solid red;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 5px;
-  padding: 5px;
 }
 
 #backgroundCharSelect {
   background-color: #020402;
   width: 100%;
   height: 25%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  outline: 1px solid red;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 5px;
-  padding: 5px;
 }
 @media (min-width: 576px) {
   #backgroundCharSelect {
@@ -334,15 +338,7 @@ nav a:hover {
 }
 
 #charSelect h2 {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-  align-self: flex-start;
-  margin-bottom: 10px;
 }
 
 .portrait:nth-of-type(3) {

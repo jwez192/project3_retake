@@ -3,6 +3,7 @@
       {
         "id":0,
         "name":"Thorn",
+        "background": "thorn_background",
         "equipment":
         {
           "head":"thorn_helm",
@@ -181,6 +182,7 @@
       {
         "id":1,
         "name":"Icemechanic",
+        "background":"icemechanic_background",
         "equipment":
         {
           "head":"icemechanic_helm",
