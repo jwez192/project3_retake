@@ -21,6 +21,9 @@
 }
 #innerStatsRow{
     // outline: 5px solid red;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 #innerStatsRow article{
     // outline: 2px solid $primary-light-text;
@@ -28,8 +31,9 @@
     // background-color: $primary-dark-background;
 }
 .health{
+    border:2px solid $primary-light-text;
     background-image: url('../images/icons/health.png');
-    background-size: 100%;
+    background-size: 60%;
     width: 50px;
     height: 50px;
     background-position: center;
@@ -44,76 +48,130 @@
     // }
 }
 .int{
+    border:2px solid $primary-light-text;
     background-image: url('../images/icons/int.png');
-    background-size: 100%;
+    background-size: 60%;
     width: 50px;
     height: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: lightskyblue;
     border-radius: 10px;
+    transition: all 1s;
 }
 .strength{
+    border:2px solid $primary-light-text;
     background-image: url('../images/icons/strength.png');
-    background-size: 100%;
+    background-size: 60%;
     width: 50px;
     height: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: darkorange;
     border-radius: 10px;
+    transition: all 1s;
 }
 .stamina{
+    border:2px solid $primary-light-text;
     background-image: url('../images/icons/stamina.png');
-    background-size: 100%;
+    background-size: 60%;
     width: 50px;
     height: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-color:deeppink;
     border-radius: 10px;
+    transition: all 1s;
 }
 .vers{
+    border:2px solid $primary-light-text;
     background-image: url('../images/icons/vers.png');
-    background-size: 100%;
+    background-size: 60%;
     width: 50px;
     height: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-color:dodgerblue;
     border-radius: 10px;
+    transition: all 1s;
 }
 .mastery{
+    border:2px solid $primary-light-text;
     background-image: url('../images/icons/mastery.png');
-    background-size: 100%;
+    background-size: 60%;
     width: 50px;
     height: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-color:gold;
     border-radius: 10px;
+    transition: all 1s;
 }
 .crit{
+    border:2px solid $primary-light-text;
     background-image: url('../images/icons/crit.png');
-    background-size: 100%;
+    background-size: 60%;
     width: 50px;
     height: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-color:purple;
     border-radius: 10px;
+    transition: all 1s;
 }
 .haste{
+    border:2px solid $primary-light-text;
     background-image: url('../images/icons/haste.png');
-    background-size: 100%;
+    background-size: 60%;
     width: 50px;
     height: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-color:green;
     border-radius: 10px;
+    transition: all 1s;
 }
 
 #statsHeader{
     margin-top: 100px;
+}
+.health:hover{
+    background-color:white;
+    transition: all 1s;
+    cursor:pointer;
+}
+.int:hover{
+    background-color:white;
+    transition: all 1s;
+    cursor:pointer;
+}
+.strength:hover{
+    background-color:white;
+    transition: all 1s;
+    cursor:pointer;
+}
+.stamina:hover{
+    background-color:white;
+    transition: all 1s;
+    cursor:pointer;
+}
+.crit:hover{
+    background-color:white;
+    transition: all 1s;
+    cursor:pointer;
+}
+.haste:hover{
+    background-color:white;
+    transition: all 1s;
+    cursor:pointer;
+}
+.mastery:hover{
+    background-color:white;
+    transition: all 1s;
+    cursor:pointer;
+}
+.vers:hover{
+    background-color:white;
+    transition: all 1s;
+    cursor:pointer;
 }

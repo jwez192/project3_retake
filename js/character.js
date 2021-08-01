@@ -11,28 +11,37 @@
                 case "charOne":
                     console.log("1");
                    
+                    let thorn = new CharacterDisplay();
+                    thorn.changeLayout(0);
+                   
                     break;
                 case "charTwo":
                     console.log("2");
-                    // document.getElementById('charCol').style.backgroundImage = "url('../images/characters/icemechanic/Icemechanic.jpg')";
+                    
                     let iceMech = new CharacterDisplay();
                     iceMech.changeLayout(1);
                     
                     break;
                 case "charThree":
                     console.log("3");
-                    // document.getElementById('charCol').style.backgroundImage = "url('../images/characters/thorn/thorn.jpg')";
-                    let thorn = new CharacterDisplay();
-                    thorn.changeLayout(0);
+                    
+                    let grandil = new CharacterDisplay();
+                    grandil.changeLayout(2);
                     
                     break;
                 case "charFour":
                     console.log("4");
+                     
+                     let ghoultak = new CharacterDisplay();
+                     ghoultak.changeLayout(3);
+
                     break;
                 case "charFive":
                     console.log("5");
+                    let vinha = new CharacterDisplay();
+                    vinha.changeLayout(4);
                     break;
-                    default:
+                default:
                 console.log("blah");
             
             }
