@@ -35,7 +35,7 @@
 }
 
 #vinha_shirt {
-  background-image: url("../images/characters/vinha/items/shirt.jpg");
+  background-image: url("../images/characters/vinha/items/empty.png");
 }
 
 #vinha_wrists {
@@ -51,7 +51,7 @@
 }
 
 #vinha_tabard {
-  background-image: url("../images/characters/vinha/items/tabard.jpg");
+  background-image: url("../images/characters/vinha/items/empty.png");
 }
 
 #vinha_weaponTwo {
@@ -79,6 +79,94 @@
   background-repeat: no-repeat;
   border-radius: 50%;
   z-index: 0;
+}
+
+@media (min-width: 992px) {
+  #rightItems .Vinha:nth-of-type(1) p {
+    margin-left: -80px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Vinha:nth-of-type(1) p {
+    margin-left: -63px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Vinha:nth-of-type(2) p {
+    margin-left: -53px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Vinha:nth-of-type(2) p {
+    margin-left: -40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Vinha:nth-of-type(3) p {
+    margin-left: -50px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Vinha:nth-of-type(3) p {
+    margin-left: -35px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Vinha:nth-of-type(4) p {
+    margin-left: -65px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Vinha:nth-of-type(4) p {
+    margin-left: -50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Vinha:nth-of-type(5) p {
+    margin-left: -113px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Vinha:nth-of-type(5) p {
+    margin-left: -98px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Vinha:nth-of-type(6) p {
+    margin-left: -113px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Vinha:nth-of-type(6) p {
+    margin-left: -95px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Vinha:nth-of-type(7) p {
+    margin-left: -78px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Vinha:nth-of-type(7) p {
+    margin-left: -65px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Vinha:nth-of-type(8) p {
+    margin-left: -90px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Vinha:nth-of-type(8) p {
+    margin-left: -73px;
+  }
 }
 
 #ghoultak_helm {
@@ -118,7 +206,7 @@
 }
 
 #ghoultak_shirt {
-  background-image: url("../images/characters/ghoultak/items/shirt.jpg");
+  background-image: url("../images/characters/ghoultak/items/empty.png");
 }
 
 #ghoultak_wrists {
@@ -134,7 +222,7 @@
 }
 
 #ghoultak_tabard {
-  background-image: url("../images/characters/ghoultak/items/tabard.jpg");
+  background-image: url("../images/characters/ghoultak/items/empty.png");
 }
 
 #ghoultak_weaponTwo {
@@ -162,6 +250,94 @@
   background-repeat: no-repeat;
   border-radius: 50%;
   z-index: 0;
+}
+
+@media (min-width: 992px) {
+  #rightItems .Ghoultak:nth-of-type(1) p {
+    margin-left: -103px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Ghoultak:nth-of-type(1) p {
+    margin-left: -86px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Ghoultak:nth-of-type(2) p {
+    margin-left: -93px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Ghoultak:nth-of-type(2) p {
+    margin-left: -77px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Ghoultak:nth-of-type(3) p {
+    margin-left: -129px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Ghoultak:nth-of-type(3) p {
+    margin-left: -110px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Ghoultak:nth-of-type(4) p {
+    margin-left: -75px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Ghoultak:nth-of-type(4) p {
+    margin-left: -60px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Ghoultak:nth-of-type(5) p {
+    margin-left: -82px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Ghoultak:nth-of-type(5) p {
+    margin-left: -67px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Ghoultak:nth-of-type(6) p {
+    margin-left: -67px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Ghoultak:nth-of-type(6) p {
+    margin-left: -50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Ghoultak:nth-of-type(7) p {
+    margin-left: -148px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Ghoultak:nth-of-type(7) p {
+    margin-left: -135px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Ghoultak:nth-of-type(8) p {
+    margin-left: -93px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Ghoultak:nth-of-type(8) p {
+    margin-left: -80px;
+  }
 }
 
 #grandil_helm {
@@ -247,6 +423,94 @@
   z-index: 0;
 }
 
+@media (min-width: 992px) {
+  #rightItems .Grandil:nth-of-type(1) p {
+    margin-left: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Grandil:nth-of-type(1) p {
+    margin-left: -83px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Grandil:nth-of-type(2) p {
+    margin-left: -70px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Grandil:nth-of-type(2) p {
+    margin-left: -50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Grandil:nth-of-type(3) p {
+    margin-left: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Grandil:nth-of-type(3) p {
+    margin-left: -83px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Grandil:nth-of-type(4) p {
+    margin-left: -85px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Grandil:nth-of-type(4) p {
+    margin-left: -67px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Grandil:nth-of-type(5) p {
+    margin-left: -93px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Grandil:nth-of-type(5) p {
+    margin-left: -78px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Grandil:nth-of-type(6) p {
+    margin-left: -92px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Grandil:nth-of-type(6) p {
+    margin-left: -75px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Grandil:nth-of-type(7) p {
+    margin-left: -110px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Grandil:nth-of-type(7) p {
+    margin-left: -95px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Grandil:nth-of-type(8) p {
+    margin-left: -58px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Grandil:nth-of-type(8) p {
+    margin-left: -43px;
+  }
+}
+
 #icemechanic_helm {
   background-image: url("../images/characters/icemechanic/items/helm.jpg");
 }
@@ -330,76 +594,160 @@
   z-index: 0;
 }
 
+@media (min-width: 992px) {
+  #rightItems .Icemechanic:nth-of-type(1) p {
+    margin-left: -60px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Icemechanic:nth-of-type(1) p {
+    margin-left: -45px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Icemechanic:nth-of-type(2) p {
+    margin-left: -125px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Icemechanic:nth-of-type(2) p {
+    margin-left: -105px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Icemechanic:nth-of-type(3) p {
+    margin-left: -65px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Icemechanic:nth-of-type(3) p {
+    margin-left: -50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Icemechanic:nth-of-type(4) p {
+    margin-left: -115px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Icemechanic:nth-of-type(4) p {
+    margin-left: -98px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Icemechanic:nth-of-type(5) p {
+    margin-left: -83px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Icemechanic:nth-of-type(5) p {
+    margin-left: -63px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Icemechanic:nth-of-type(6) p {
+    margin-left: -55px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Icemechanic:nth-of-type(6) p {
+    margin-left: -40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Icemechanic:nth-of-type(7) p {
+    margin-left: -35px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Icemechanic:nth-of-type(7) p {
+    margin-left: -18px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Icemechanic:nth-of-type(8) p {
+    margin-left: -32px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Icemechanic:nth-of-type(8) p {
+    margin-left: -15px;
+  }
+}
+
 #thorn_helm {
-  background-image: url("../images/characters/thorn/items/helmet.gif");
+  background-image: url("../images/characters/thorn/items/helm.jpg");
 }
 
 #thorn_chest {
-  background-image: url("../images/characters/thorn/items/chest.gif");
+  background-image: url("../images/characters/thorn/items/chest.jpg");
 }
 
 #thorn_shoulders {
-  background-image: url("../images/characters/thorn/items/shoulders.gif");
+  background-image: url("../images/characters/thorn/items/shoulders.jpg");
 }
 
 #thorn_pants {
-  background-image: url("../images/characters/thorn/items/pants.gif");
+  background-image: url("../images/characters/thorn/items/pants.jpg");
 }
 
 #thorn_belt {
-  background-image: url("../images/characters/thorn/items/belt.gif");
+  background-image: url("../images/characters/thorn/items/belt.jpg");
 }
 
 #thorn_ring_one {
-  background-image: url("../images/characters/thorn/items/ringOne.gif");
+  background-image: url("../images/characters/thorn/items/ringOne.jpg");
 }
 
 #thorn_ring_two {
-  background-image: url("../images/characters/thorn/items/ringTwo.gif");
+  background-image: url("../images/characters/thorn/items/ringTwo.jpg");
 }
 
 #thorn_trinket_one {
-  background-image: url("../images/characters/thorn/items/trinketOne.gif");
+  background-image: url("../images/characters/thorn/items/trinketOne.jpg");
 }
 
 #thorn_trinket_two {
-  background-image: url("../images/characters/thorn/items/trinketTwo.gif");
+  background-image: url("../images/characters/thorn/items/trinketTwo.jpg");
 }
 
 #thorn_shirt {
-  background-image: url("../images/characters/thorn/items/shirt.gif");
+  background-image: url("../images/characters/thorn/items/empty.png");
 }
 
 #thorn_wrists {
-  background-image: url("../images/characters/thorn/items/wrists.gif");
+  background-image: url("../images/characters/thorn/items/wrists.jpg");
 }
 
 #thorn_neck {
-  background-image: url("../images/characters/thorn/items/neck.gif");
+  background-image: url("../images/characters/thorn/items/neck.jpg");
 }
 
 #thorn_weaponOne {
-  background-image: url("../images/characters/thorn/items/weapon.gif");
+  background-image: url("../images/characters/thorn/items/weapon.jpg");
 }
 
 #thorn_tabard {
-  background-image: url("../images/characters/thorn/items/empty.png");
-}
-
-#thorn_weaponTwo {
-  background-image: url("../images/characters/thorn/items/empty.png");
+  background-image: url("../images/characters/thorn/items/tabard.jpg");
 }
 
 #thorn_cloak {
-  background-image: url("../images/characters/thorn/items/cloak.gif");
+  background-image: url("../images/characters/thorn/items/cloak.jpg");
 }
 
 #thorn_gloves {
-  background-image: url("../images/characters/thorn/items/gloves.gif");
+  background-image: url("../images/characters/thorn/items/gloves.jpg");
 }
 
 #thorn_boots {
-  background-image: url("../images/characters/thorn/items/boots.gif");
+  background-image: url("../images/characters/thorn/items/boots.jpg");
 }
 
 #thorn_background {
@@ -411,6 +759,94 @@
   background-repeat: no-repeat;
   border-radius: 50%;
   z-index: 0;
+}
+
+@media (min-width: 992px) {
+  #rightItems .Thorn:nth-of-type(1) p {
+    margin-left: -85px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Thorn:nth-of-type(1) p {
+    margin-left: -70px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Thorn:nth-of-type(2) p {
+    margin-left: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Thorn:nth-of-type(2) p {
+    margin-left: -85px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Thorn:nth-of-type(3) p {
+    margin-left: -137px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Thorn:nth-of-type(3) p {
+    margin-left: -120px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Thorn:nth-of-type(4) p {
+    margin-left: -85px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Thorn:nth-of-type(4) p {
+    margin-left: -67px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Thorn:nth-of-type(5) p {
+    margin-left: -70px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Thorn:nth-of-type(5) p {
+    margin-left: -55px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Thorn:nth-of-type(6) p {
+    margin-left: -80px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Thorn:nth-of-type(6) p {
+    margin-left: -60px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Thorn:nth-of-type(7) p {
+    margin-left: -95px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Thorn:nth-of-type(7) p {
+    margin-left: -75px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rightItems .Thorn:nth-of-type(8) p {
+    margin-left: -95px;
+  }
+}
+@media (min-width: 1200px) {
+  #rightItems .Thorn:nth-of-type(8) p {
+    margin-left: -78px;
+  }
 }
 
 nav {
@@ -444,15 +880,14 @@ nav a:hover {
 }
 @media (min-width: 300px) {
   .item {
-    right: 0;
-    width: 100%;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
 }
 @media (min-width: 576px) {
   .item {
     width: 100%;
-    height: 35px;
+    height: 60px;
   }
 }
 @media (min-width: 992px) {
@@ -492,16 +927,23 @@ nav a:hover {
 }
 @media (min-width: 300px) {
   .itemImg {
-    height: 100%;
-    width: 50%;
+    height: 20px;
+    width: 20px;
   }
 }
 @media (min-width: 576px) {
+  .itemImg {
+    height: 50px;
+    width: 50px;
+  }
+}
+@media (min-width: 992px) {
   .itemImg {
     height: 100%;
     width: 50%;
   }
 }
+
 .item:hover p, .item:hover {
   color: white;
   cursor: pointer;
@@ -625,23 +1067,8 @@ nav a:hover {
   float: right;
 }
 
-#rightItems p {
-  text-align: right;
-  margin-left: -5px;
-}
-@media (min-width: 992px) {
-  #rightItems p {
-    margin-left: -100px;
-  }
-}
-@media (min-width: 1200px) {
-  #rightItems p {
-    margin-left: -50px;
-  }
-}
-
 .itemCol p {
-  color: lightsalmon;
+  color: #a335ee;
 }
 
 #leftItems p {

@@ -1,6 +1,5 @@
 #vinha_helm{
     background-image: url('../images/characters/vinha/items/helm.jpg');
-    
 }
 #vinha_chest{
     background-image: url('../images/characters/vinha/items/chest.jpg');
@@ -27,7 +26,7 @@
     background-image: url('../images/characters/vinha/items/trinketTwo.jpg');
 }
 #vinha_shirt{
-    background-image: url('../images/characters/vinha/items/shirt.jpg');
+    background-image: url('../images/characters/vinha/items/empty.png');
 }
 #vinha_wrists{
     background-image: url('../images/characters/vinha/items/wrists.jpg');
@@ -39,7 +38,7 @@
     background-image: url('../images/characters/vinha/items/weapon.jpg');
 }
 #vinha_tabard{
-    background-image: url('../images/characters/vinha/items/tabard.jpg');
+    background-image: url('../images/characters/vinha/items/empty.png');
 }
 #vinha_weaponTwo{
     background-image: url('../images/characters/vinha/items/empty.png');
@@ -56,10 +55,76 @@
 #vinha_background{
     height: 100%;
     width: 100%;
-   background-image: url('../images/characters/vinha/vinha.jpg');
-   background-size: 100%;
-   background-position: center;
-   background-repeat: no-repeat;
-   border-radius: 50%;
-   z-index: 0;
+    background-image: url('../images/characters/vinha/vinha.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: 0;
+}
+#rightItems .Vinha:nth-of-type(1) p{
+    
+    
+    @media (min-width:992px) {
+        margin-left: -80px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -63px;
+    }
+}
+#rightItems .Vinha:nth-of-type(2) p{
+    @media (min-width:992px) {
+        margin-left: -53px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -40px;
+    }
+}
+#rightItems .Vinha:nth-of-type(3) p{
+    @media (min-width:992px) {
+        margin-left: -50px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -35px;
+    }
+}
+#rightItems .Vinha:nth-of-type(4) p{
+    @media (min-width:992px) {
+        margin-left: -65px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -50px;
+    }
+}
+#rightItems .Vinha:nth-of-type(5) p{
+    @media (min-width:992px) {
+        margin-left: -113px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -98px;
+    }
+}
+#rightItems .Vinha:nth-of-type(6) p{
+    @media (min-width:992px) {
+        margin-left: -113px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -95px;
+    }
+}
+#rightItems .Vinha:nth-of-type(7) p{
+    @media (min-width:992px) {
+        margin-left: -78px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -65px;
+    }
+}
+#rightItems .Vinha:nth-of-type(8) p{
+    @media (min-width:992px) {
+        margin-left: -90px;
+    }
+    @media (min-width:1200px) {
+        margin-left: -73px;
+    }
 }

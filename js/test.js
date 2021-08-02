@@ -23,6 +23,25 @@
           "trinketOne":"thorn_trinket_one",
           "trinketTwo":"thorn_trinket_two"
         },
+        "equipmentDescription":
+        {
+          "head":"Sinful Aspirant's Chain Helm",
+          "shoulders":"Sinful Gladiator's Chain Monnion",
+          "chest":"Master Huntsman's Bandolier",
+          "pants":"Sinful Gladiator's Chain Breeches",
+          "boots":"Jingling Stone Stompers",
+          "cloak":"Cloak of the Windspeaker",
+          "belt":"Sinful Aspirant's Chain Belt",
+          "gloves":"Bone Crushing Vicegrips",
+          "wrists":"Fleshscale Wristwraps",
+          "tabard":"Tabard of the Unshackled",
+          "shirt":"Empty(shirt)",
+          "neck":"Sinful Gladiator's Necklace",
+          "ringOne":"Sinful Gladiator's Ring",
+          "ringTwo":"Sinful Aspirant's Signet",
+          "trinketOne":"Sinful Gladiator's Emblem",
+          "trinketTwo":"Sinful Aspirant's Medallion"
+        },
         "stats":
         {
           "health":30820,
@@ -201,7 +220,26 @@
           "ringTwo":"icemechanic_ring_two",
           "trinketOne":"icemechanic_trinket_one",
           "trinketTwo":"icemechanic_trinket_two"
-        }
+        },
+        "equipmentDescription":
+        {
+          "head":"Shattered Fragments of Sindragosa",
+          "shoulders":"Soul-Siphon Mantle",
+          "chest":"Runebound Tunic",
+          "pants":"Runebound Leggings",
+          "boots":"Nefarious Light-Step Slippers",
+          "cloak":"Drape of the Spirited Hunt",
+          "belt":"Enhanced Worldscorcher Cinch",
+          "gloves":"Manawracker Gloves",
+          "wrists":"Man'ari Pyromancer Cuffs",
+          "tabard":"Renowned Guild Tabard",
+          "shirt":"Sightless Mantle",
+          "neck":"Collar of Null-Flame",
+          "ringOne":"Seal of the Portalmaster",
+          "ringTwo":"Shard of the Exodar",
+          "trinketOne":"Reality Breacher",
+          "trinketTwo":"Sheath of Asara"
+        },
       },
       {
         "id":2,
@@ -225,6 +263,25 @@
           "ringTwo":"grandil_ring_two",
           "trinketOne":"grandil_trinket_one",
           "trinketTwo":"grandil_trinket_two"
+        },
+        "equipmentDescription":
+        {
+          "head":"Desolate Leather Helm",
+          "shoulders":"Waylight Epaulets",
+          "chest":"Waylight Tunic",
+          "pants":"Deceitful Agent's Breeches",
+          "boots":"Desolate Leather Treads",
+          "cloak":"Blighted Margrave's Cloak",
+          "belt":"Deceitful Agent's Belt",
+          "gloves":"Desolate Leather Gauntlets",
+          "wrists":"Desolate Leather Armguards",
+          "tabard":"Illustrious Guild Tabard",
+          "shirt":"Formal White Shirt",
+          "neck":"Reconstructed Family Locket",
+          "ringOne":"Band of Chronicled Deeds",
+          "ringTwo":"Reverberating Silver Band",
+          "trinketOne":"Misfiring Centurion Controller",
+          "trinketTwo":"Phial of Putrefaction"
         },
         "stats":{
             "health":26471,
@@ -260,6 +317,25 @@
           "trinketOne":"ghoultak_trinket_one",
           "trinketTwo":"ghoultak_trinket_two"
         },
+        "equipmentDescription":
+        {
+          "head":"Sinful Aspirant's Silk Hood",
+          "shoulders":"Sinful Aspirant's Silk Mantle",
+          "chest":"Bloodsilk Robe",
+          "pants":"Bladesworn Conjurer's Leggings",
+          "boots":"Shadowlace Footwraps",
+          "cloak":"Sinful Aspirant's Drape",
+          "belt":"Cinch of Infinite Tightness",
+          "gloves":"Sinful Aspirant's Silk Gloves",
+          "wrists":"Grim Pursuant's Maille",
+          "tabard":"Empty(tabard)",
+          "shirt":"Empty(shirt)",
+          "neck":"Chain of the Purpose-Bound",
+          "ringOne":"Entwined Gorger Tendril",
+          "ringTwo":"Sinful Aspirant's Ring",
+          "trinketOne":"Sinful Aspirant's Insignia of Alacrity",
+          "trinketTwo":"Sinful Aspirant's Medallion"
+        },
         "stats":{
             "health":25940,
             "mana": 50000,
@@ -293,6 +369,25 @@
           "ringTwo":"vinha_ring_two",
           "trinketOne":"vinha_trinket_one",
           "trinketTwo":"vinha_trinket_two"
+        },
+        "equipmentDescription":
+        {
+          "head":"Mistdancer Helm",
+          "shoulders":"Exceptional Stormshroud Shoulders",
+          "chest":"Stained Shadowcraft Tunic",
+          "pants":"Jambani Breeches",
+          "boots":"Mistdancer Footpads",
+          "cloak":"Inherited Cape of the Black Baron",
+          "belt":"Jambani Waistwrap",
+          "gloves":"Mistdancer Handguards",
+          "wrists":"Mistdancer Cuffs",
+          "tabard":"vinha_tabard",
+          "shirt":"vinha_shirt",
+          "neck":"Heart of Azeroth",
+          "ringOne":"Mistdancer Band of Onslaught",
+          "ringTwo":"Mistdancer Ring of Onslaught",
+          "trinketOne":"Mistdancer Idol of Rage",
+          "trinketTwo":"Mistdancer Stone of Rage"
         },
         "stats":{
             "health":25940,
