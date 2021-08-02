@@ -10,3 +10,17 @@ nav a:hover{
     color:black
     
 }
+button{
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/icons/mastery.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width:575px) {
+        visibility: visible;
+    }
+    @media (min-width:576px) {
+        visibility: hidden;
+    }
+}
