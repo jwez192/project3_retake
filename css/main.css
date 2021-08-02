@@ -1223,12 +1223,6 @@ footer p {
 }
 
 #statsDisplay {
-  outline: 2px solid red;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#stats article {
   margin-left: auto;
   margin-right: auto;
 }
@@ -1238,10 +1232,6 @@ footer p {
   width: 30px;
   float: left;
   margin: 2px;
-}
-
-#statsOne, #statsTwo {
-  border: 2px solid #E4E3D3;
 }
 
 #stats p {
@@ -1427,6 +1417,72 @@ footer p {
   border-top: 2px solid #E4E3D3;
   border-radius: 7px;
   margin-top: 10px;
+}
+
+.portraitLeft:nth-of-type(1), .portraitRight:nth-of-type(1) {
+  background-image: url("../images/characters/thorn/thorn.jpg");
+  background-position: center;
+  background-size: 400%;
+  background-repeat: no-repeat;
+}
+
+.portraitLeft:nth-of-type(2), .portraitRight:nth-of-type(2) {
+  background-image: url("../images/characters/icemechanic/Icemechanic.jpg");
+  background-position: center;
+  background-size: 600%;
+  background-repeat: no-repeat;
+}
+
+.portraitLeft:nth-of-type(3), .portraitRight:nth-of-type(3) {
+  background-image: url("../images/characters/grandil/grandil.jpg");
+  background-position: center;
+  background-size: 600%;
+  background-repeat: no-repeat;
+}
+
+.portraitLeft:nth-of-type(4), .portraitRight:nth-of-type(4) {
+  background-image: url("../images/characters/ghoultak/ghoultak.jpg");
+  background-position: center;
+  background-size: 600%;
+  background-repeat: no-repeat;
+}
+
+.portraitLeft:nth-of-type(5), .portraitRight:nth-of-type(5) {
+  background-image: url("../images/characters/vinha/vinha.jpg");
+  background-position: center;
+  background-size: 600%;
+  background-repeat: no-repeat;
+}
+
+.portraitLeft, .portraitRight {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #E4E3D3;
+  border-radius: 50%;
+}
+@media (min-width: 300px) {
+  .portraitLeft, .portraitRight {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (min-width: 576px) {
+  .portraitLeft, .portraitRight {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (min-width: 992px) {
+  .portraitLeft, .portraitRight {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.portraitLeft:hover, .portraitRight:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid red;
 }
 
 /*# sourceMappingURL=main.css.map */

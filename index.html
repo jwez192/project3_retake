@@ -32,12 +32,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#stats">Stats</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Achievements(Coming Soon)</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Theme(Coming Soon)</a>
-                    </li>
                 </ul>
             </div>
             <div class="navbar-header">
@@ -214,19 +208,32 @@
             </article>
        </section>
        <h2 id="statsHeader">Stats</h2>
+       <section class="row">
+        <div id="backgroundCharSelect" class="col-5">
+            <h3>Character Select</h3>
+            <article class="d-flex align-items-center justify-content-between" id="statsCharSelect">
+                <div id="charOneLeft" class="portraitLeft"></div>
+                <div id="charTwoLeft" class="portraitLeft"></div>
+                <div id="charThreeLeft" class="portraitLeft"></div>
+                <div id="charFourLeft" class="portraitLeft"></div>
+                <div id="charFiveLeft" class="portraitLeft"></div>
+            </article>
+        </div>
+        <div id="backgroundCharSelect" class="col-5">
+            <h3>Character Select</h3>
+            <article class="d-flex align-items-center justify-content-between" id="statsCharSelect">
+                <div id="charOneRight" class="portraitRight"></div>
+                <div id="charTwoRight" class="portraitRight"></div>
+                <div id="charThreeRight" class="portraitRight"></div>
+                <div id="charFourRight" class="portraitRight"></div>
+                <div id="charFiveRight" class="portraitRight"></div>
+            </article>
+        </div>
+       </section>
        <section id="stats" class="row">
            <article class="col-11 col-md-6" id="statsOne">
-                <article id="innerStatsRow"class="row">
-                    <div id="backgroundCharSelect">
-                        <h3>Character Select</h3>
-                        <article class="d-flex align-items-center justify-content-between" id="statsCharSelect">
-                            <div id="charOne" class="portrait"></div>
-                            <div id="charTwo" class="portrait"></div>
-                            <div id="charThree" class="portrait"></div>
-                            <div id="charFour" class="portrait"></div>
-                            <div id="charFive" class="portrait"></div>
-                        </article>
-                    </div>
+                <article id="innerStatsRow" class="row left">
+                    
                     <article class="col-3">
                         <div class="health"></div>
                         <div id="health"></div>
@@ -262,51 +269,7 @@
                 </article>
            </article>
            <article class="col-11 col-md-6 " id="statsTwo">
-               <article id="innerStatsRow"class="row">
-                <div id="backgroundCharSelect">
-                    <h3>Character Select</h3>
-                    <article class="d-flex align-items-center justify-content-between" id="statsCharSelect">
-                        <div id="charOne" class="portrait"></div>
-                        <div id="charTwo" class="portrait"></div>
-                        <div id="charThree" class="portrait"></div>
-                        <div id="charFour" class="portrait"></div>
-                        <div id="charFive" class="portrait"></div>
-                    </article>
-                </div>
-               <!-- <aritcle id = "statsDisplay" class="d-flex align-items-center justify-content-between">
-                   <article>
-                    <div class="health"></div>
-                    <p>Health <br> 15,000</p>
-                   </article>
-                   <article>
-                    <div class="int"></div>
-                    <p>Health <br> 15,000</p>
-                   </article>
-                   <article>
-                    <div class="strength"></div>
-                    <p>Health <br> 15,000</p>
-                   </article>
-                   <article>
-                    <div class="stamina"></div>
-                    <p>Health <br> 15,000</p>
-                   </article>
-                   <article>
-                    <div class="crit"></div>
-                    <p>Health <br> 15,000</p>
-                   </article>
-                   <article>
-                    <div class="haste"></div>
-                    <p>Health <br> 15,000</p>
-                   </article>
-                   <article>
-                    <div class="mastery"></div>
-                    <p>Health <br> 15,000</p>
-                   </article>
-                   <article>
-                    <div class="vers"></div>
-                    <p>Health <br> 15,000</p>
-                   </article>
-               </aritcle> -->
+               <article id="innerStatsRow"class="row right">
                 <article class="col-3">
                     <div class="health"></div>
                     <div id="health"></div>

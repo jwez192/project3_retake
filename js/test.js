@@ -45,7 +45,7 @@
         "stats":
         {
           "health":30820,
-          "maelstrom":100,
+          "strength":100,
           "intellect":1397,
           "stamina":1541,
           "crit":9,
@@ -240,6 +240,16 @@
           "trinketOne":"Reality Breacher",
           "trinketTwo":"Sheath of Asara"
         },
+        "stats":{
+            "health":60479,
+            "intellect": 7245,
+            "strength":353,
+            "stamina":341,
+            "crit":15,
+            "haste":13,
+            "mastery":18,
+            "vers":9
+        }
       },
       {
         "id":2,
@@ -285,8 +295,8 @@
         },
         "stats":{
             "health":26471,
-            "mana": 5253,
-            "agility":538,
+            "intellect": 5253,
+            "strength":538,
             "stamina":1226,
             "crit":19,
             "haste":13,
@@ -338,7 +348,7 @@
         },
         "stats":{
             "health":25940,
-            "mana": 50000,
+            "strength": 50000,
             "intellect":1088,
             "stamina":1297,
             "crit":16,
@@ -390,14 +400,14 @@
           "trinketTwo":"Mistdancer Stone of Rage"
         },
         "stats":{
-            "health":25940,
-            "mana": 50000,
-            "intellect":1088,
-            "stamina":1297,
-            "crit":16,
-            "haste":8,
-            "mastery":18,
-            "vers":13
+            "health":6048,
+            "strength": 283,
+            "intellect":100,
+            "stamina":336,
+            "crit":27,
+            "haste":20,
+            "mastery":25,
+            "vers":1
         }
       }
     ]

@@ -39,6 +39,80 @@
         
         })
     })
+    let charOptionsLeft = document.querySelectorAll('.portraitLeft');
+    
+    charOptionsLeft.forEach(option => {
+        
+        option.addEventListener('click', e =>{
+            switch(option.id){
+                case "charOneLeft":         
+                    let thorn = new CharacterDisplay();
+                    thorn.changeStatsLeft(0);
+                   
+                    break;
+                case "charTwoLeft":    
+                    let iceMech = new CharacterDisplay();
+                    iceMech.changeStatsLeft(1);
+                    
+                    break;
+                case "charThreeLeft":       
+                    let grandil = new CharacterDisplay();
+                    grandil.changeStatsLeft(2);
+                    
+                    break;
+                case "charFourLeft":       
+                     let ghoultak = new CharacterDisplay();
+                     ghoultak.changeStatsLeft(3);
+
+                    break;
+                case "charFiveLeft":
+                    let vinha = new CharacterDisplay();
+                    vinha.changeStatsLeft(4);
+                    break;
+                default:
+                console.log("blah");
+            
+            }
+        
+        })
+    })
+    let charOptionsRight = document.querySelectorAll('.portraitRight');
+    
+    charOptionsRight.forEach(option => {
+        
+        option.addEventListener('click', e =>{
+            switch(option.id){
+                case "charOneRight":         
+                    let thorn = new CharacterDisplay();
+                    thorn.changeStatsRight(0);
+                   
+                    break;
+                case "charTwoRight":    
+                    let iceMech = new CharacterDisplay();
+                    iceMech.changeStatsRight(1);
+                    
+                    break;
+                case "charThreeRight":       
+                    let grandil = new CharacterDisplay();
+                    grandil.changeStatsRight(2);
+                    
+                    break;
+                case "charFourRight":       
+                     let ghoultak = new CharacterDisplay();
+                     ghoultak.changeStatsRight(3);
+
+                    break;
+                case "charFiveRight":
+                    let vinha = new CharacterDisplay();
+                    vinha.changeStatsRight(4);
+                    break;
+                default:
+                console.log("blah");
+            
+            }
+        
+        })
+    })
 })();
 
 
@@ -134,5 +208,86 @@ class CharacterDisplay{
         <p class = "descriptionText" text-nowrap>${characters[index].equipmentDescription.trinketTwo}</p>
         </article>`;
         injectLocationRight.innerHTML = injectItemRight;
+    }
+    changeStatsLeft(index){
+        // grab left  item column
+        let injectLocationLeft = document.querySelector('.left');
+        let injectItemLeft = '';
+
+        injectItemLeft += `<article class = "col-3">
+        <div class="health"></div>
+        <p>Health:  ${characters[index].stats.health}</p>
+        </article>`;
+        injectItemLeft += `<article class = "col-3">
+        <div class="int"></div>
+        <p>Mana:  ${characters[index].stats.intellect}</p>
+        </article>`;
+        injectItemLeft += `<article class = "col-3">
+        <div class="strength"></div>
+        <p>strength:  ${characters[index].stats.strength}</p>
+        </article>`;
+        injectItemLeft += `<article class = "col-3">
+        <div class="stamina"></div>
+        <p>stamina:  ${characters[index].stats.stamina}</p>
+        </article>`;
+        injectItemLeft += `<article class = "col-3">
+        <div class="crit"></div>
+        <p>crit:  ${characters[index].stats.crit}%</p>
+        </article>`;
+        injectItemLeft += `<article class = "col-3">
+        <div class="haste"></div>
+        <p>haste:  ${characters[index].stats.haste}%</p>
+        </article>`;
+        injectItemLeft += `<article class = "col-3">
+        <div class="mastery"></div>
+        <p>mastery:  ${characters[index].stats.mastery}%</p>
+        </article>`;
+        injectItemLeft += `<article class = "col-3">
+        <div class="vers"></div>
+        <p>vers:  ${characters[index].stats.vers}%</p>
+        </article>`;
+
+        injectLocationLeft.innerHTML=injectItemLeft;
+
+    }
+    changeStatsRight(index){
+        // grab right item column
+        let injectLocationRight = document.querySelector('.right');
+        let injectItemRight = '';
+        
+        injectItemRight += `<article class = "col-3">
+        <div class="health"></div>
+        <p>Health:  ${characters[index].stats.health}</p>
+        </article>`;
+        injectItemRight += `<article class = "col-3">
+        <div class="int"></div>
+        <p>Mana:  ${characters[index].stats.intellect}</p>
+        </article>`;
+        injectItemRight += `<article class = "col-3">
+        <div class="strength"></div>
+        <p>strength:  ${characters[index].stats.strength}</p>
+        </article>`;
+        injectItemRight += `<article class = "col-3">
+        <div class="stamina"></div>
+        <p>stamina:  ${characters[index].stats.stamina}</p>
+        </article>`;
+        injectItemRight += `<article class = "col-3">
+        <div class="crit"></div>
+        <p>crit:  ${characters[index].stats.crit}%</p>
+        </article>`;
+        injectItemRight += `<article class = "col-3">
+        <div class="haste"></div>
+        <p>haste:  ${characters[index].stats.haste}%</p>
+        </article>`;
+        injectItemRight += `<article class = "col-3">
+        <div class="mastery"></div>
+        <p>mastery:  ${characters[index].stats.mastery}%</p>
+        </article>`;
+        injectItemRight += `<article class = "col-3">
+        <div class="vers"></div>
+        <p>vers:  ${characters[index].stats.vers}%</p>
+        </article>`;
+
+        injectLocationRight.innerHTML=injectItemRight;
     }
 }
